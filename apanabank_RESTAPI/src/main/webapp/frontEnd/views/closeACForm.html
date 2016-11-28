@@ -1,0 +1,35 @@
+<div>
+	<p>
+		<b>Close Account Form</b>
+	</p>
+	<div class="commomFonts">
+	<form name="closeForm" method="get" action="customer/closeAccount.bank" ng-submit="closeCtrl.closeAccount(closeForm.$valid)" novalidate>
+		<p class="errorTag" ng-show="closeForm.$invalid && closeCtrl.isValidated"> Please check your username and Password</p>
+		<p class="errorTag" ng-show="closeCtrl.isValid">{{closeCtrl.validationMsg}}</p>
+		
+	
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input name="account_no" ng-model="closeCtrl.accountNo"class="formMargin" type="text" number-only  required/></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input name="username" ng-model="closeCtrl.username" class="formMargin" type="text" required/></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input name="passsword" class="formMargin" ng-model="closeCtrl.password" type="password" required/></td>
+			</tr>
+			
+
+		</table>
+		<div class="bottomButtons">
+			<input type="submit" class="submitBtn" value="Submit" /> 
+		<input type="button" class="clearBtn" value="Clear" />
+		</div>
+	</form>
+	</div>
+</div>

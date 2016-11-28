@@ -1,0 +1,14 @@
+<div class="col-sm-12" style="padding: 0;">
+	<div class="col-sm-4 gridBackground1 gridAlign"
+		ng-include="'frontEnd/views/services.html'"></div>
+
+	<div class="col-sm-4 gridBackground1 gridAlign"
+		ng-include="'frontEnd/views/depositForm.html'" ng-if="!dpstCtrl.isDataSubmitted"></div>
+
+	<div ng-include="'frontEnd/views/welcomePage.html'"
+		class="col-sm-4 gridBackground1 gridAlign" ng-if="!dpstCtrl.isDataSubmitted">
+		</div>
+		<div ng-include="'frontEnd/views/depositDetailsPage.html'"
+		class="col-sm-8 gridBackground1 gridAlign" style="text-align: left;" ng-if="dpstCtrl.isDataSubmitted">
+		</div>
+</div>

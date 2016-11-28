@@ -1,0 +1,15 @@
+<div class="col-sm-12" style="padding: 0;">
+	<div class="col-sm-4 gridBackground1 gridAlign" 
+		ng-include="'frontEnd/views/services.html'"></div>
+		
+	<div class="col-sm-4 gridBackground1 gridAlign"
+		ng-include="'frontEnd/views/registerForm.html'" ng-if="!registerController.isDataSubmitted"></div>
+		
+	<div ng-include="'frontEnd/views/welcomePage.html'"
+		class="col-sm-4 gridBackground1 gridAlign" style="text-align: left;" ng-if="!registerController.isDataSubmitted">
+		</div>
+	<div ng-include="'frontEnd/views/accountDetailsPage.html'"
+		class="col-sm-8 gridBackground1 gridAlign" style="text-align: left; overflow-x: auto; padding-left: 3%; " ng-if="registerController.isDataSubmitted">
+		</div>
+
+</div>

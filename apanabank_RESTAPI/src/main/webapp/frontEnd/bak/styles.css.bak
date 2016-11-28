@@ -1,0 +1,176 @@
+body {
+	overflow: hidden;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: currentColor;
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+	text-align: center;
+}
+
+footer p {
+	color: #fff;
+}
+
+.imgMain {
+	width: 71%;
+	float: left;
+}
+
+.crousal {
+	margin-bottom: 0;
+}
+
+.mainPage {
+	background: currentColor;
+}
+
+.navbarStyle {
+	background-color: black;
+}
+
+.homePage {
+	color: white;
+	border-color: white;
+}
+
+.gridBackground {
+	border-color: gray;
+	border-style: solid;
+	text-align: center;
+	color: white;
+	font-size: x-large;
+	font-style: italic;
+	background: rgb(29, 29, 29);
+	border-width: thin;
+	height: 202px;
+}
+
+.gridBackground1 {
+	border-color: gray;
+	border-style: solid;
+	text-align: center;
+	color: rgb(29, 29, 29);
+	font-size: large;
+	font-style: italic;
+	background: white;
+	border-width: thin;
+	height: 202px;
+}
+
+.welcomePageAlign {
+	width: 63%;
+	margin-left: 18%;
+	margin-top: 8%;
+	margin-bottom: 6%;
+}
+
+.gridAlign {
+	text-align: left;
+	height: 402px;
+	padding-top: 1.5%;
+}
+
+.formMargin {
+	margin: 7%;
+	width: 125%;
+}
+
+.viewStyle {
+	background-color: white;
+}
+
+.navigation {
+	padding-left: 0;
+	padding-right: 0;
+	/* border-color:white; */
+	/* border-style:groove; */
+	/* border-right */
+	/* border-width:thin; */
+}
+
+.menuBar {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.menuItem {
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+	text-align: center;
+}
+
+.navInnerStyle {
+	float: left;
+	margin-left: 24px;
+}
+
+.itemAlign {
+	width: 14.27%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.tableHeading {
+	padding-right: 6%;
+	padding-top: 3%;
+	font-size: x-small;
+	font-style: normal
+}
+
+.commomFonts {
+	font-size: 12px;
+	font-style: normal;
+}
+
+.errorTag {
+	color: red;
+}
+
+.aboutUsSections {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.welcomeSection {
+	font-size: 13px;
+	text-align: justify;
+	padding-top: 2.5%
+}
+
+.bottomButtons {
+	margin-left: 33%;
+	margin-top: 5%;
+}
+
+.submitBtn {
+	margin-right: 7%;
+	width: 25%;
+	height: 27px;
+	border-radius: 6px;
+}
+
+.clearBtn {
+	width: 25%;
+	height: 27px;
+	border-radius: 6px;
+}
+
+@media only screen and (max-width: 500px) {
+	.mobileToggle {
+		padding-left: 8.5%;
+	}
+	.imgMain {
+		width: 100%;
+	}
+}

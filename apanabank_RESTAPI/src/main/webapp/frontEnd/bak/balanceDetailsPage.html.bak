@@ -1,0 +1,22 @@
+<div>
+	Welcome {{blncCtrl.balanceDetails.Username}}
+	<table>
+		<tr>
+			<th>
+				<div class="tableHeading">ACCOUNT NO</div>
+			</th>
+			<th class="tableHeading">USERNAME</th>
+			<th class="tableHeading">AMOUNT</th>
+			<th class="tableHeading">ADDRESS</th>
+			<th class="tableHeading">PHONE</th>
+		</tr>
+		<tr>
+
+			<td><p>{{blncCtrl.balanceDetails.AccountNo}}</p></td>
+			<td><p>{{blncCtrl.balanceDetails.Username}}</p></td>
+			<td><p>{{blncCtrl.balanceDetails.Amount}}</p></td>
+			<td><p>{{blncCtrl.balanceDetails.Address}}</p></td>
+			<td><p>{{blncCtrl.balanceDetails.Phone}}</p></td>
+		</tr>
+	</table>
+</div>

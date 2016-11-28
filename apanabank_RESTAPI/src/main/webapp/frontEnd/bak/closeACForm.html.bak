@@ -1,0 +1,30 @@
+<div>
+	<p>
+		<b>Close Account Form</b>
+	</p>
+	<div class="commomFonts">
+	<p class="errorTag" ng-show="false">Please check your username and Password !!</p>
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input class="formMargin" type="number" /></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input class="formMargin" type="text" /></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input class="formMargin" type="password" /></td>
+			</tr>
+			
+
+		</table>
+		<div class="bottomButtons">
+			<input type="button" class="submitBtn" value="Submit" /> 
+		<input type="button" class="clearBtn" value="Clear" />
+		</div>
+	</div>
+</div>

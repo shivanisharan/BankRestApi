@@ -1,0 +1,38 @@
+<div>
+	<p>
+		<b>TRANSFER FORM</b>
+	</p>
+	<div style="font-size: xx-small; font-style: normal;">
+	<p ng-show="false">Please check you username and Password</p>
+		<p ng-show="false">Please check you username and Password</p>
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input class="formMargin" type="number" /></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input class="formMargin" type="text" /></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input class="formMargin" type="password" /></td>
+			</tr>
+			<tr>
+				<td>TARGET ACCOUNT NO :</td>
+				<td><input class="formMargin" type="number" /></td>
+			</tr>
+			<tr>
+				<td>AMOUNT :</td>
+				<td><input class="formMargin" type="number" /></td>
+			</tr>
+
+		</table>
+		<div style="margin-left: 33%; margin-bottom: 5%;">
+			<input type="button" value="Submit" /> <input type="button"
+				value="CLEAR" />
+		</div>
+	</div>
+</div>

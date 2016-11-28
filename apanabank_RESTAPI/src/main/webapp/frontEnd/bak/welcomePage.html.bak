@@ -1,0 +1,13 @@
+<div>
+	<p>
+		<b>Welcome</b>
+	</p>
+	<div>
+		<img src="frontEnd/img/monitor.jpg"
+			class="welcomePageAlign">
+	</div>
+	<p style="font-size: xx-small; text-align: justify; padding-bottom: 2.5%";>This is the
+		Global Business which is under business and finance category for your
+		website design. Freedesigntemplates.com is a free collection of site
+		templates with the HTML layouts which are are frequently updates</p>
+</div>

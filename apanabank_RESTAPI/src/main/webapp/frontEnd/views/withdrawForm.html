@@ -1,0 +1,36 @@
+<div>
+	<p>
+		<b>Withdraw Form</b>
+	</p>
+	<div class="commomFonts">
+	<form name="withdrawForm" method="post" action="customer/withdraw.bank" ng-submit="wdrCtrl.withdrawAccount(withdrawForm.$valid)" novalidate>
+	<p class="errorTag" ng-show="withdrawForm.$invalid && wdrCtrl.isValidated">Please check your Username and Password !!</p>
+	<p class="errorTag" ng-show="wdrCtrl.isValid">{{wdrCtrl.validationMsg}}</p>
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input name="account_no" class="formMargin" type="text" number-only ng-model="wdrCtrl.accountNo" required/></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input name="username" class="formMargin" type="text" ng-model="wdrCtrl.username" required/></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input name="password" class="formMargin" type="password" ng-model="wdrCtrl.password" required/></td>
+			</tr>
+			<tr>
+				<td>AMOUNT :</td>
+				<td><input name="amount" class="formMargin" type="text" number-only ng-model="wdrCtrl.amount" required/></td>
+			</tr>
+
+		</table>
+		<div class="bottomButtons">
+			<input type="submit" class="submitBtn" value="Submit" /> 
+			<input type="button" class="clearBtn" value="Clear" />
+		</div>
+		</form>
+	</div>
+</div>

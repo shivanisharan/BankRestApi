@@ -1,0 +1,40 @@
+<div>
+	<p>
+		<b>Transfer Form</b>
+	</p>
+	<div class="commomFonts">
+	<form name="transferForm" method="get" action="customer/transfer.bank" ng-submit="tnfrCtrl.transferAccount(transferForm.$valid)" novalidate>
+	<p class="errorTag" ng-show="transferForm.$invalid && tnfrCtrl.isValidated">Please check your Username and Password !!</p>
+	<p class="errorTag" ng-show="tnfrCtrl.isValid">{{tnfrCtrl.validationMsg}} !!</p>
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input name="src_acc_no" class="formMargin" type="text" number-only ng-model="tnfrCtrl.accountNo" required /></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input name="username" class="formMargin" type="text" ng-model="tnfrCtrl.username" required /></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input name="password" class="formMargin" type="password" ng-model="tnfrCtrl.password" required /></td>
+			</tr>
+			<tr>
+				<td>TARGET ACCOUNT NO :</td>
+				<td><input name="target_acc_no" class="formMargin" type="text" number-only ng-model="tnfrCtrl.targetAccountNo" required /></td>
+			</tr>
+			<tr>
+				<td>AMOUNT :</td>
+				<td><input name="amount" class="formMargin" type="text" number-only ng-model="tnfrCtrl.amount" required /></td>
+			</tr>
+
+		</table>
+		<div class="bottomButtons">
+			<input type="submit" class="submitBtn" value="Submit" /> 
+			<input type="button" class="clearBtn" value="Clear" />
+		</div>
+		</form>
+	</div>
+</div>

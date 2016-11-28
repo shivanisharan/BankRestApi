@@ -1,0 +1,293 @@
+body {
+	overflow: hidden;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+
+
+.imgMain {
+	width: 500px;
+	height: 200px;
+}
+
+.crousal {
+	margin-bottom: 0;
+}
+
+.mainPage {
+	background: red;
+}
+
+.navbarStyle {
+	background-color: black;
+}
+
+.homePage {
+	color: white;
+	border-color: white;
+}
+
+.gridBackground {
+	border-color: gray;
+	border-style: solid;
+	text-align: center;
+	color: rgb(244, 234, 233);
+	font-size: x-large;
+	font-style: italic;
+	background-color: #83848A;
+	/* background: rgb(29, 29, 29); */
+	border-width: thin;
+	height: 202px;
+	border-width: thin
+	
+}
+
+.gridBackground1 {
+	border-color: gray;
+	border-style: solid;
+	text-align: center;
+	/* color: rgb(29, 29, 29); */
+	color: solid black;
+	font-size: large;
+	font-style: italic;
+	background: #B1BAEC;
+	border-width: thin;
+	height: 202px;
+	border-width: thin
+	
+}
+
+.welcomePageAlign {
+	width: 63%;
+	margin-left: 18%;
+	margin-top: 15%;
+	margin-bottom: 6%;
+}
+
+.gridAlign {
+	text-align: left;
+	height: 402px;
+	padding-top: 1.5%;
+}
+
+.formMargin {
+	margin: 7%;
+	width: 125%;
+}
+
+.viewStyle {
+	background-color: white;
+}
+
+.navigation {
+	padding-left: 0;
+	padding-right: 0;
+	/* border-color:white; */
+	/* border-style:groove; */
+	/* border-right */
+	/* border-width:thin; */
+}
+
+.menuBar {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	background-color: #1C1817;
+	color:white;
+}
+
+.menuItem {
+	border-color: gray;
+	border-style: groove;
+	border-width: thin;
+	text-align: center;
+	color:white;
+}
+
+.navInnerStyle {
+	float: left;
+	margin-left: 24px;
+}
+
+.itemAlign {
+	width: 14.27%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.tableHeading {
+	padding-right: 28px;
+	font-size: 15px;
+	font-style: normal;
+	padding-bottom: 5px;
+	color: red;
+}
+
+.commomFonts {
+	font-size: 12px;
+	font-style: normal;
+}
+
+.errorTag {
+	color:  red;
+}
+
+.aboutUsSections {
+	font-size: 13px;
+	text-align: justify;
+
+}
+
+.welcomeSection {
+	font-size: 13px;
+	text-align: justify;
+	padding-top: 3%
+}
+
+.bottomButtons {
+	margin-left: 33%;
+	margin-top: 5%;
+}
+
+.submitBtn {
+	margin-right: 7%;
+	width: 25%;
+	height: 27px;
+	border-radius: 6px;
+	outline: none;
+	background-color: #48DD8C;
+}
+
+.clearBtn {
+	width: 25%;
+	height: 27px;
+	border-radius: 6px;
+	outline: none;
+	background-color: #48DD8C;
+}
+
+.accDetails1 {
+	font-size: 13px;
+	font-style: normal;
+	padding-left: 33%;
+}
+
+.accDetails2 {
+	width: 12em;
+	word-break: break-word;
+	padding-right: 7%;
+	font-size: 13px;
+	font-style: normal;
+}
+
+.accDetails3 {
+	font-size: 13px;
+	font-style: normal;
+	width: 120px;
+}
+
+.accDetails4 {
+	font-size: 13px;
+	font-style: normal;
+}
+
+.balanceAccNo {
+	font-size: 13px;
+	font-style: normal;
+	padding-left: 30%;
+	width: 155px;
+}
+
+.balanceUname {
+	width: 15em;
+	word-break: break-word;
+	font-size: 13px;
+	font-style: normal;
+}
+
+.balanceAmt {
+	font-size: 13px;
+	font-style: normal;
+	width: 155px;
+}
+
+.balanceAddrs {
+	width: 16em;
+	word-break: break-word;
+	font-size: 13px;
+	font-style: normal;
+}
+
+.balancePhno {
+	font-size: 13px;
+	font-style: normal;
+}
+.nameAlign{
+	font-weight: bold;
+	font-style:normal;
+	color: red;
+	text-transform: uppercase;
+}
+.nameHeading {
+	color: red;
+	font-size: 15px;
+	font-style: italic;
+	/* font-weight: bold; */
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: #fff;
+	/* background-color: rgb(74, 178, 208) !important; */
+	background-color: #E36666 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+	background-color: #0C0B0B !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.balEnquiry{
+	
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    padding-left: 3%;
+	
+}
+
+.balMsg{
+	    font-size: 16px;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 5%;
+    color: #337AC8;
+    padding-top: 2%;
+    font-style: italic;
+}
+
+.balHighlight{
+	text-transform: uppercase;
+  color: #337AC8;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+@media only screen and (max-width: 500px) {
+	.mobileToggle {
+		padding-left: 8.5%;
+	}
+	.imgMain {
+		width: 100%;
+	}
+}

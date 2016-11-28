@@ -1,0 +1,22 @@
+<div>
+	<table>
+		<tr>
+			<th >
+			<div class="tableHeading">ACCOUNT NO</div></th>
+			<th class="tableHeading">USERNAME</th>
+			<th class="tableHeading">PASSWORD</th>
+			<th class="tableHeading">AMOUNT</th>
+			<th class="tableHeading">ADDRESS</th>
+			<th class="tableHeading">PHONE</th>
+		</tr>
+		<tr ng-repeat="customer in accnCtrl.accountDetails">
+		
+<td><p>{{customer.AccountNo}}</p>	</td>
+<td><p>{{customer.Username}}</p>	</td>
+<td><p>{{customer.Password}}</p>	</td>
+<td><p>{{customer.Amount}}</p>	</td>
+<td><p>{{customer.Address}}</p>	</td>
+<td><p>{{customer.Phone}}</p>	</td>
+		</tr>
+	</table>
+</div>

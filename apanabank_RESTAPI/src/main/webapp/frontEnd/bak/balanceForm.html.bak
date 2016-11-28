@@ -1,0 +1,32 @@
+<div>
+	<p>
+		<b>Balance Form</b>
+	</p>
+	<div  class="commomFonts">
+		<form name="balanceForm" ng-submit="blncCtrl.getAccount(balanceForm.$valid)" novalidate>
+		<p ng-show="balanceForm.$invalid && blncCtrl.isValidated">Please check your username and Password</p>
+		<p ng-show="blncCtrl.isValid">{{blncCtrl.validationMsg}}</p>
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input name="accountnumber" class="formMargin" ng-model="blncCtrl.accountNo" type="number" required/></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input name="username" class="formMargin" ng-model="blncCtrl.username" type="text" required/></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input name="passsword" class="formMargin" type="password" ng-model="blncCtrl.password"/ required></td>
+			</tr>
+
+		</table>
+		<div class="bottomButtons">
+			<input type="submit" class="submitBtn" value="Submit" /> 
+			<input type="button" class="clearBtn" value="Clear" />
+		</div>
+		</form>
+	</div>
+</div>

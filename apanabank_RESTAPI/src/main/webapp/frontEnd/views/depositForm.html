@@ -1,0 +1,36 @@
+<div>
+	<p>
+		<b>Deposit Form</b>
+	</p>
+	<div class="commomFonts">
+	<form name="depositForm" method="post" action="customer/credit.bank" ng-submit="dpstCtrl.depositAccount(depositForm.$valid)" novalidate>
+	<p class="errorTag" ng-show="depositForm.$invalid && dpstCtrl.isValidated">Please check your Username and Password !!</p>
+	<p class="errorTag" ng-show="dpstCtrl.isValid">{{dpstCtrl.validationMsg}}</p>
+		<table>
+			<tr>
+				<td>ACCOUNT NO :</td>
+				<td><input name="account_no" class="formMargin" type="text" number-only ng-model="dpstCtrl.accountNo" required/></td>
+			</tr>
+
+			<tr>
+				<td>USER NAME :</td>
+
+				<td><input name="username" class="formMargin" type="text" ng-model="dpstCtrl.username" required/></td>
+			</tr>
+			<tr>
+				<td>PASSWORD :</td>
+				<td><input name="password" class="formMargin" type="password" ng-model="dpstCtrl.password" required/></td>
+			</tr>
+			<tr>
+				<td>AMOUNT :</td>
+				<td><input name="amount" class="formMargin" type="text" number-only ng-model="dpstCtrl.amount" required/></td>
+			</tr>
+
+		</table>
+		<div class="bottomButtons">
+			<input type="submit" class="submitBtn" value="Submit" /> 
+			<input type="button" class="clearBtn" value="Clear" />
+		</div>
+		</form>
+	</div>
+</div>
